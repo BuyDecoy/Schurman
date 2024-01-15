@@ -121,6 +121,28 @@ header .header .scroll:hover{
     background-color: black;
 }
 
+.box a{
+    font-family: Bitter;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    background-color: black;
+}
+
+.box .box .scroll{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    color: black;
+    transform: translate (0, -50%);
+    transition: all 0.5s;
+    background-color: #235b66;
+}
+
+.box a:hover{
+    color: aqua;
+}
+
 .box p{
     text-align: center;
     color: white;

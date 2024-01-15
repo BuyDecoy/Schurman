@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700;800&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
     background-color: #235b66;
 }
-
 
 .navbar{
     padding-bottom: 25px;
@@ -19,8 +20,9 @@
 
 .navbar .logo{
     color: white;
+    font-family: Bitter;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 24px;
     background-color: black;
 }
 
@@ -56,7 +58,7 @@
     text-decoration: none;
 }
 
-.box{
+.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,8 +83,7 @@
     font-size: 24px;
 }
 
-.container{
-    margin: 25px 0%;
+.container2{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,6 +111,7 @@
 .videos2{
     background-color: black;
     position: relative;
+    margin-top: 2%;
     padding: 20px 20px;
     border: 3px solid white;
     border-radius: 25px;
@@ -122,4 +124,24 @@
     color: white;
     background-color: black;
     margin-bottom: 15px;
+}
+
+.flex-container{
+    justify-content: space-around;
+    height: 200px;
+    display: flex;
+}
+
+.box{
+    margin: 2% 2% 2% 2%;
+    padding: 1% 5% 2% 2%;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+.box h2{
+    color: white;
+    background-color: black;
 }
