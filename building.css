@@ -66,6 +66,16 @@
     background-color: black;
 }
 
+.container i{
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
+
+.container i:hover{
+    color: rgba(0, 255, 255, 0.775)
+}
+
 .textbox{
     margin-top: 50px;
     margin-bottom: 50px;
