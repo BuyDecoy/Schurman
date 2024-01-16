@@ -181,3 +181,9 @@
 .box a:hover{
     color: rgb(72, 139, 117)
 }
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
