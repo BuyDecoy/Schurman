@@ -122,8 +122,6 @@ header .header .scroll:hover{
 }
 
 .box a{
-    font-family: Bitter;
-    text-align: center;
     font-size: 32px;
     color: white;
     background-color: black;
@@ -140,7 +138,7 @@ header .header .scroll:hover{
 }
 
 .box a:hover{
-    color: aqua;
+    color: rgba(0, 255, 255, 0.775);
 }
 
 .box p{
