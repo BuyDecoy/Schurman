@@ -77,12 +77,20 @@
     color: rgba(0, 255, 255, 0.775)
 }
 
-.hobbies img{
+.hobbies .horizontal{
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 480px;
     height: 360px;
+}
+
+.hobbies .vertical{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    height: 480px;
 }
 
 .photos{
